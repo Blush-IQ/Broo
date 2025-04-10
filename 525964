@@ -1,0 +1,160 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Reading Corner</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fff6f9;
+      margin: 0;
+      padding: 0;
+      color: #4b4453;
+    }
+    header {
+      background-color: #fddde6;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    .book-list {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding: 20px;
+    }
+    .book {
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 15px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+    .book img {
+      width: 80px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-right: 15px;
+    }
+    .book-content {
+      flex-grow: 1;
+    }
+    .book-content h3 {
+      margin: 0 0 5px;
+      font-size: 1.1em;
+    }
+    .book-content p {
+      margin: 0 0 10px;
+      font-size: 0.9em;
+      color: #6e6a7f;
+    }
+    .book-content a {
+      background-color: #ff9aa2;
+      color: white;
+      padding: 6px 12px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 0.9em;
+    }
+    .book-content a:hover {
+      background-color: #f67280;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Reading Corner</h1>
+    <p>Discover, read, and enjoy beautiful stories anytime</p>
+  </header>
+  <div class="book-list">
+    <!-- Book 1 -->
+    <div class="book">
+      <img src="https://i.postimg.cc/C5GHq6KX/download.jpg" alt="Book 1 Cover">
+      <div class="book-content">
+        <h3>Taming 7</h3>
+        <p>One ruthless fighter, one untouchable girl, and a love that breaks all the rules.
+
+</p>
+        <a href="https://wu8.in/wxwgOL">Download PDF</a>
+      </div>
+    </div><!-- Book 2 -->
+<div class="book">
+  <img src="https://i.postimg.cc/nrcgMZdC/9c0a750880a722ef5b75cd1d8599957d.jpg" alt="Book 2 Cover">
+  <div class="book-content">
+    <h3>A Good Girl's Guide To Murder</h3>
+    <p>A dead girl, a convicted killer, and one good girl who won't let the truth stay buried.
+
+</p>
+    <a href="https://bitly.pp.ua/QRkO2905" target="_blank">Download PDF</a>
+  </div>
+</div>
+
+<!-- Book 3 -->
+<div class="book">
+  <img src="https://i.postimg.cc/zD046bBW/b1d67859b053e37d933a737209a0726d.jpg" alt="Book 3 Cover">
+  <div class="book-content">
+    <h3>The Summer I Turned Pretty</h3>
+    <p>One summer, one girl, two brothers—and everything changes 
+    </p>
+    <a href="https://shrinkme.io/yourlink3" target="_blank">Download PDF</a>
+  </div>
+</div>
+
+<!-- Book 4 -->
+<div class="book">
+  <img src="https://i.postimg.cc/Ss4wFcCL/b9a130ccccd941a30f08312a1a1fea82.jpg" alt="Book 4 Cover">
+  <div class="book-content">
+    <h3>Just Say Yes</h3>
+    <p>One wedding, one fake date, and one unexpected chance at real love.
+
+</p>
+    <a href="https://shrinkme.io/yourlink4" target="_blank">Download PDF</a>
+  </div>
+</div>
+
+<!-- Book 5 -->
+<div class="book">
+  <img src="https://i.postimg.cc/MKLNZC1p/c798d90558b78e183060a8fa6b646181.jpg" alt="Book 5 Cover">
+  <div class="book-content">
+    <h3>I Hope This Doesn't Find You</h3>
+    <p>One secret love letter, one accidental leak, and a fierce overachiever’s perfect life spirals into chaos.
+</p>
+    <a href="https://bitly.pp.ua/DQlnKYTy" target="_blank">Download PDF</a>
+  </div>
+</div>
+
+<!-- Book 5 -->
+<div class="book">
+  <img src="https://i.postimg.cc/bJH0Wt9t/5e8bcbcab4661a09e2c094e41193f3e6.jpg" alt="Book 5 Cover">
+  <div class="book-content">
+    <h3>Picking daisies on sundays</h3>
+    <p>One quiet town, one hidden past, and Sundays that bloom with secrets among the daisies.
+</p>
+    <a href="https://bitly.pp.ua/X0FHb" target="_blank">Download PDF</a>
+  </div>
+</div>
+<!-- Book 5 -->
+<div class="book">
+  <img src="https://i.postimg.cc/dtJNsq7F/21794aca62ba356c6695e1cf1bfc2101.jpg" alt="Book 5 Cover">
+  <div class="book-content">
+    <h3>Love And Gelato</h3>
+    <p>One summer in Italy, one journal from the past, and a journey that leads straight to the heart.
+</p>
+    <a href="https://bitly.pp.ua/DQlnKYTy" target="_blank">Download PDF</a>
+  </div>
+</div>
+<!-- Placeholder for more books -->
+<!-- Just copy-paste and change details as you add new ones -->
+
+  </div>
+<footer style="text-align: center; padding: 20px; background-color: #fddde6; color: #6e6a7f; font-size: 0.9em;">
+  More books coming soon...
+</footer></body>
+</html>
